@@ -6,7 +6,8 @@ import Qt.labs.qmlmodels
 import "../js/externalScript.js" as ExternalScript
 
 ColumnLayout {
-
+    Layout.fillHeight: true
+    Layout.fillWidth: true
     property int fiboNumber: 1
     function fibonacci(n){
             var lastNumber = 0;
@@ -17,12 +18,8 @@ ColumnLayout {
 
             return lastNumber;
     }
-
-    Layout.fillHeight: true
-    Layout.fillWidth: true
     RowLayout {
         ButtonMyStyle {
-            Layout.preferredWidth: 300
             Layout.fillWidth: true
             Layout.alignment: Qt.AlignHCenter
             text: "fibonaciiRepeater"

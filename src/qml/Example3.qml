@@ -11,7 +11,6 @@ ColumnLayout {
     property int thidFibo: 1
     RowLayout {
         ButtonMyStyle {
-            Layout.preferredWidth: 300
             Layout.fillWidth: true
             Layout.alignment: Qt.AlignHCenter
             text: "fibonaciiRepeater"

@@ -24,8 +24,8 @@ RowLayout {
         Layout.alignment: Qt.AlignHCenter
         text: "0"
         onClicked: {
-        countClicks = 0;
-        countClicksBtn.text = countClicks;
+            countClicks = 0;
+            countClicksBtn.text = countClicks;
         }
     }
 

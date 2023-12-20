@@ -5,6 +5,7 @@
 #include <QPointF>
 #include <QTimer>
 
+
 class ChartData : public QObject
 {
     Q_OBJECT

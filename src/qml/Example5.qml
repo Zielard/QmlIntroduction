@@ -42,7 +42,6 @@ RowLayout {
                onClicked: {
                    chart_1_on = true;
                    dataFromCpp.startStreamData();
-                   //lineSeries1.clear()
                }
            }
            Button {

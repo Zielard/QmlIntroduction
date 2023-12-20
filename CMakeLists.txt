@@ -35,6 +35,8 @@ qt6_add_resources(ExamplePrj "configuration"
         src/qml/Example4.qml
         src/qml/Example5.qml
         src/qml/Example6.qml
+        src/qml/ExampleExtra1.qml
+        src/qml/ExampleExtra2.qml
 
         src/js/externalScript.js
 )

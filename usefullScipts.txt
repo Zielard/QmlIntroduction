@@ -1,0 +1,5 @@
+
+C:\Qt\Tools\CMake_64\bin\cmake.exe -S C:/projects/QmlIntroduction -B C:/projects/qmlMyOwne/build -DCMAKE_PREFIX_PATH:PATH=C:/Qt/6.6.0/msvc2019_64 
+
+
+C:\Qt\6.6.0\msvc2019_64\bin\windeployqt.exe --release --qmldir C:/projects/QmlIntroduction/src/qml ExamplePrj.exe

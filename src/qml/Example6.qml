@@ -60,13 +60,13 @@ import QtCharts
                     State {
                         name: "undocked"
                         when: (simpleChart.docked == false)
-                        ParentChange { target: simpleChart; parent: additionalRect; x: 10; y: 10
+                        ParentChange { target: simpleChart; parent: additionalRect;
                         }
                     },
                     State {
                         name: "docked"
                         when: (simpleChart.docked == true)
-                        ParentChange { target: simpleChart; parent: backgroundRect; x: 10; y: 10
+                        ParentChange { target: simpleChart; parent: backgroundRect;
                         }
                     }
                 ]
